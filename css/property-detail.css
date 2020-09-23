@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+/* START GLOBAL STYLES */
+body {
+  font-family: "Roboto", "Helvetica", "sans-serif";
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.7;
+}
