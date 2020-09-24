@@ -865,5 +865,30 @@ footer small a:hover {
     margin: 0;
   }
 
+  nav ul li {
+    display: block;
+    margin: 20px 0;
+  }
 
+  nav ul li:first-child {
+    margin-top: 50px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    color: #212529;
+  }
+
+  nav ul li a:active,
+  nav ul li a:hover {
+    color: #00aeef;
+  }
+
+  #property-details small {
+    font-size: 0.75rem;
+  }
+
+  .actions-container button {
+    padding: 0.5rem 0.9rem;
+  }
 }
