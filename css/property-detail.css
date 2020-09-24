@@ -491,5 +491,43 @@ header ul li a:active {
 
 /* END NEARBY SIMILAR HOMES STYLES */
 
-/* END NEARBY SIMILAR HOMES STYLES */
-/* END NEARBY SIMILAR HOMES STYLES */
+/* START PROPERTY DETAILS STYLES */
+#property-info-details .flex {
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#property-info-details .flex.main-details {
+  width: 60%;
+  justify-content: space-between;
+}
+
+#property-info-details .flex>div {
+  flex: 0 0 30%;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+#property-info-details .flex.main-details>div {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#property-info-details .flex label {
+  font-weight: 600;
+}
+
+#property-info-details .flex label .fa {
+  color: #00aeef;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  font-size: 1.6rem;
+  width: 30px;
+  text-align: center;
+}
+
+/* END PROPERTY DETAILS STYLES*/
