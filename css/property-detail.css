@@ -408,4 +408,88 @@ header ul li a:active {
 /* END PROPERTY INFO STYLES */
 
 /* START NEARBY SIMILAR HOMES STYLES */
+#nearby-similar-homes {
+  margin: 4rem 0 6rem;
+  position: relative;
+}
+
+#nearby-similar-homes .container {
+  position: relative;
+}
+
+#nearby-similar-homes .container::before {
+  content: "/";
+  position: absolute;
+  right: 80px;
+  top: 18px;
+  color: #999;
+}
+
+#properties-slider a {
+  text-decoration: none;
+}
+
+#properties-slider a.slick.arrow {
+  color: black;
+  position: absolute;
+  top: -78px;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+#properties-slider a.slick-prev {
+  right: 80px;
+}
+
+#properties-slider .slick.slide {
+  padding: 0 15px;
+}
+
+#properties-slider img {
+  width: 100%;
+  display: block;
+}
+
+#properties-slider .property-details {
+  padding: 1rem;
+}
+
+#properties-slider .price {
+  font-size: 1.2rem;
+  color: #343a40;
+  font-weight: 800;
+  margin: 0 0 0.5rem 0;
+}
+
+#properties-slider .property-details span {
+  font-size: 0.8rem;
+  color: #444;
+  padding-right: 15px;
+}
+
+#properties-slider .property-details span.baths {
+  padding-left: 10px;
+}
+
+#properties-slider .property-details span.sqft {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+#properties-slider .property-details span.beds,
+#properties-slider .property-details span.baths {
+  border-right: 1px solid #888;
+}
+
+#properties-slider .property-details address {
+  font-size: 0.8rem;
+  font-style: normal;
+  margin-top: 0.5rem;
+  color: #444;
+}
+
+/* END NEARBY SIMILAR HOMES STYLES */
+
+/* END NEARBY SIMILAR HOMES STYLES */
 /* END NEARBY SIMILAR HOMES STYLES */
