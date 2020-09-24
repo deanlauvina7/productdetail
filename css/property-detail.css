@@ -568,4 +568,82 @@ header ul li a:active {
 /* END PRICE HISTORY STYLES */
 
 /* START NEIGHBORHOOD STYLES*/
+.walk-score-container {
+  margin-bottom: 4rem;
+}
+
+.walk-score-container>div {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.walk-score-container .fa {
+  font-size: 1.6rem;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  width: 30px;
+  text-align: center;
+}
+
+.walk-score-container strong {
+  margin-right: 5px;
+  flex: 0 0 130px;
+}
+
+.walk-score-container a {
+  font-size: 1.3rem;
+  color: #00aeef;
+  line-height: 1.3rem;
+  text-decoration: none;
+}
+
+.walk-score-container a:hover {
+  text-decoration: underline;
+}
+
+.walk-score-container i {
+  margin-left: 5px;
+}
+
+.school-ratings-container>div {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.school-ratings-container .rating {
+  flex: 0 0 40px;
+  border-radius: 40px;
+  padding: 15px;
+  margin-right: 15px;
+  color: white;
+}
+
+.school-ratings-container .rating.good {
+  background: darkgreen;
+}
+
+.school-ratings-container .rating.medium {
+  background: darkorange;
+}
+
+.school-ratings-container .rating.poor {
+  background: darkred;
+}
+
+.school-ratings-container .rating span {
+  font-size: 1.4rem;
+}
+
+.school-ratings-container .school-info a {
+  color: #00aeef;
+  font-weight: 600;
+}
+
+.school-ratings-container .school-info span {
+  margin-right: 10px;
+}
+
 /* END NEIGHBORHOOD STYLES*/
