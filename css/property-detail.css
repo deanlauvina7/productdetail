@@ -1077,4 +1077,102 @@ footer small a:hover {
     flex: 0 0 100%;
     display: block;
   }
+
+  #property-details .actions-container {
+    margin-top: 0;
+  }
+
+  #property-details .actions-container button {
+    font-size: 13px;
+  }
+
+  #property-details .actions-container small {
+    display: none;
+  }
+
+  #property-image-slider .slick-slide img,
+  #map,
+  #street {
+    height: 330px;
+  }
+
+  #slider-options-container .image-fade span {
+    bottom: 0.25rem;
+    font-size: 0.85rem;
+  }
+
+  #property-description .flex {
+    flex-wrap: wrap;
+  }
+
+  #property-description .description,
+  #property-description .listed-by-container {
+    flex-basis: 100%;
+  }
+
+  #property-description .listed-by-container>div,
+  #property-description .listed-by-container button {
+    font-size: 1.2rem;
+  }
+
+  #price-history-container .flex {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 500px) {
+
+  #property-image-slider .slick-slide img,
+  #map,
+  #street {
+    height: 290px;
+  }
+
+  #properties-slider a.slick-arrow {
+    top: -40px;
+  }
+
+  #nearby-similar-homes .container:before {
+    top: 40px;
+  }
+
+  #contact {
+    padding: 4rem 0;
+  }
+
+  #contact h2 {
+    margin-bottom: 2rem;
+  }
+
+  #form-container {
+    padding: 1.5rem;
+  }
+
+  footer {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  nav ul {
+    width: 200px;
+  }
+
+  #property-image-slider .slick-slide img,
+  #map,
+  #street {
+    height: 245px;
+  }
+
+  .walk-score-container strong {
+    flex-basis: 120px;
+  }
+
+  .walk-score-container a {
+    font-size: 1.2rem;
+  }
+
+  .walk-score-container i {
+    font-size: 0.85rem;
+  }
 }
